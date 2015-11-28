@@ -1,4 +1,5 @@
 <?php
+	//VERSION 1.5 VALIDAR.PHP
 	//recibe los parametros
 	//del formulario en la pagina index.php
 	$Goperacion=$_POST['Operacion'];
@@ -6,7 +7,7 @@
 	$Gnumero2=$_POST['Num2'];
 
 
-	class Operaciones{
+	class Operaciones{//
 		//Declararemos los miembros de
 		//la clase Operaciones, los podemos declarar
 		//como Public o Protected
@@ -31,6 +32,12 @@
 			$respuesta=$numero1-$numero2;
 			return $respuesta;
 		}
+		//Funcion que calcula la multiplicacion y
+		//retorna el resultado	
+		public function multiplicacion($numero1,$numero2){
+			$respuesta=$numero1*$numero2;
+			return $respuesta;
+		}
 
 	}
 	//se crea una clase ejemplo que hereda
@@ -45,6 +52,9 @@
 						break;
 				    case "Resta":
 						return $this->resta($numero1,$numero2);
+						break;
+				    case "Multiplicacion":
+						return $this->multiplicacion($numero1,$numero2);
 						break;						
 					default:
 						return "0";
