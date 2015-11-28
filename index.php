@@ -1,5 +1,5 @@
 <?php
-	//VERSION 1.5 DE INDEX.PHP
+	//VERSION V2.0 INDEX.PHP
 	if (empty($_GET['solucion'])) {
 		$solucion="";
 	}else{ 
@@ -29,21 +29,22 @@
 						<td> <input type='text' name='Num2'></td>
 					</tr>
 					<tr>
-						<th colspan=2>Seleccione Operacion</th>
+						<th colspan=3>Seleccione Operacion</th>
 						
 					</tr>
 					<tr>
 						<td> <input name="Operacion" type="radio" value="Suma">Suma</td>
 						<td> <input name="Operacion" type="radio" value="Resta">Resta</td>
+						<td> <input name="Operacion" type="radio" value="Multiplicación">Multiplicación</td>
 					</tr>
 					<tr>
-						<th colspan=2>Respuesta</th>					
+						<th colspan=3>Respuesta</th>					
 					</tr>
 					<tr >
-						<td colspan=2> <font color=white>&#160</font><?php echo $solucion;?></td>				
+						<td colspan=3> <font color=white>&#160</font><?php echo $solucion;?></td>				
 					</tr>
 					<tr>
-						<td colspan=2><input type='submit' name='Registrar' value='Calcular'></td>
+						<td colspan=3><input type='submit' name='Registrar' value='Calcular'></td>
 					</tr>
 				</form> 
 			</table>
