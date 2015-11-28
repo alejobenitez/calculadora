@@ -35,7 +35,7 @@
 					<tr>
 						<td> <input name="Operacion" type="radio" value="Suma">Suma</td>
 						<td> <input name="Operacion" type="radio" value="Resta">Resta</td>
-						<td> <input name="Operacion" type="radio" value="Multiplicación">Multiplicación</td>
+						<td> <input name="Operacion" type="radio" value="Multiplicacion">Multiplicación</td>
 					</tr>
 					<tr>
 						<th colspan=3>Respuesta</th>					
