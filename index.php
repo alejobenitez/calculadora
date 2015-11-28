@@ -1,5 +1,5 @@
 <?php
-	//VERSION V2.0 INDEX.PHP
+	//VERSION V2.2 INDEX.PHP
 	if (empty($_GET['solucion'])) {
 		$solucion="";
 	}else{ 
@@ -22,11 +22,11 @@
 				<form name='formulario' method='post' action='validar.php'>
 					<tr>
 						<th>Numero 1:</th>
-						<th>Numero 2:</th>
+						<th olspan=2Numero 2:</th>
 					</tr>
 					<tr>
 						<td><input type='text' name='Num1'></td>
-						<td> <input type='text' name='Num2'></td>
+						<td colspan=2> <input type='text' name='Num2'></td>
 					</tr>
 					<tr>
 						<th colspan=3>Seleccione Operacion</th>
