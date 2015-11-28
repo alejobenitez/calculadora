@@ -1,2 +1,4 @@
 # calculadora
-calculadora para Ingenieria de software 2 que muestra el versionamiento de software
+Calculadora que muestra ejemplo de control de versiones para la clase de Ingenieria software 2 en el Politecnico 
+
+Jaime Isaza Cadavid. Noviembre de 2015.
