@@ -1,0 +1,34 @@
+/* Version v1.0 del archivo Estilos.css */
+body{
+background-color: #6CD3F5;
+text-align:center;
+}
+
+h1 {
+  font: 35px/50px 'Lucida Grande', Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+table{
+	font-family: verdana,arial,sans-serif;
+	font-size:18px;
+	border: 1px solid;
+	border-color: #B3B3B3;
+	margin: auto;
+}
+table th{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table td{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #2289AB;
+}
