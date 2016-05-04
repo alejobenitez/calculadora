@@ -5,5 +5,6 @@ La calculador es capaz de realizar las siguientes operaciones entre 2 números:
 - Suma
 - Resta
 - Multiplicación
+- Logaritmo
 
 Jaime Isaza Cadavid. Noviembre de 2015.
