@@ -68,4 +68,5 @@
 	
 	//Redirecciona al index con la resupuesta
 	header ("Location: index.php?solucion=$solucion");
+	//comentario
 ?> 
